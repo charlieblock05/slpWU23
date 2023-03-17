@@ -1,5 +1,5 @@
 html {
-    font-family: 'Bell MT font family';
+    font-family: 'Bell MT fonti family';
     scroll-behavior: smooth;
 }
 
@@ -45,11 +45,12 @@ header a {
 
 }
 
-img{
+img {
     grid-area: he;
     display: flex;
-    width: 500px;
+    width: 200px;
     height: auto;
+    
 }
 
 nav{
@@ -96,9 +97,41 @@ nav a:hover{
 
 .hem {
     height: 100vh;
-    background-color: red;
     margin-top: 10vh;
+    background-color: #000000;
+    background-image: url(/img/ljus3.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 100%;
+    background-size: 20%;
+    color: white;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40% 40% auto;
+    grid-template-areas: "h1 h1"
+    "b1 b2"
+    "b3 b3";
+
+
+    
 }
+
+.hem h1 {
+    display: block;
+    grid-area:  h1;
+    word-spacing: 1rem;
+    text-align: center;
+    align-self: flex-end;
+    width: auto;
+    height: auto;
+    font-size: 4em;
+    font-style: italic;
+
+
+}
+
 
 .omoss {
     height: 100vh;
