@@ -102,7 +102,7 @@ nav a p {
     background-size: 30%;
     color: white;
     
-    font-family: 'Updock', cursive;
+    
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 40% 40% auto;
@@ -123,15 +123,41 @@ nav a p {
     grid-area:  h1;
     word-spacing: 0.5rem;
     text-align: center;
-    align-self: flex-end;
+    align-self: center;
     width: auto;
     height: auto;
-    font-size: 4em;
-    letter-spacing: 0.3rem;  
+    font-size: 3em;
+    letter-spacing: 0.2rem;  
+    margin-bottom: 70px;
                                            
 }
 
+.med {
+    display: block;
+    grid-area:  h1;
+    word-spacing: 0.5rem;
+    text-align: center;
+    align-self: center;
+    width: auto;
+    height: auto;
+    font-size: 2em;
+    letter-spacing: 0.2rem;  
+    margin-top: 120px;
+    margin-right: 290px;
 
+}
+
+.img-fb {
+
+    display: block;
+    grid-area:  h1;
+    align-self: center;
+    width: 280px;
+    height: auto; 
+    margin-top: 120px;
+    margin-left: 670px;
+
+}
 
 
 
@@ -139,12 +165,108 @@ nav a p {
     height: 75vh;
     background-color: white;
     scroll-margin-top: 15vh;
+
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-content: center;
 }
 
+.img-ljus {
+
+    width: 360px;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+    border: 5px solid #555;
+
+}
+
+.om-text {
+    text-align: center;
+    align-self: center;
+    font-size: 1.19em;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 10%;
+    border: 5px solid #555;
+    
+     
+}
+
+
+.handla {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    align-content: center;
+    grid-template-areas: 
+    "p1 p1"
+    "p2 p2";
+
+    
+}
+
+.handla-hem {
+
+    background-color: rgba(200, 200, 200, 0.5);
+    width: 400px;
+    height: 200px;
+    margin-left: 40px;
+    border-radius: 50%;
+    border: 5px solid #555;
+    transition: 0.8s;
+    
+    
+   
+}
+
+
+
+.bestall {
+
+    background-color: rgba(200, 200, 200, 0.5);
+    width: 400px;
+    height: 200px;
+    margin-left: 40px;
+    border-radius: 50%;
+    border: 5px solid #555;
+    transition: 0.8s;
+    
+
+}
+
+.handla-hem h1 {
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    margin-top: 70px;
+    font-size: 1.5rem;
+}
+
+.bestall h1 {
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    margin-top: 70px;
+    font-size: 1.5rem;
+}
+
+.handla-hem:hover {
+    transform: scale(1.075);
+
+}
+
+.bestall:hover {
+    transform: scale(1.075);
+}
 
 h2{
     margin: 0;
 }
+
 
 
 .forsaljning {
