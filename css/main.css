@@ -6,11 +6,9 @@ html {
     scroll-behavior: smooth;
 }
 
-
 body {
     margin: 0;
 }
-
 
 #container {
     height: 10vh;
@@ -24,7 +22,6 @@ body {
     '. . .';
 }
 
-
 header {
     display: flex;
     justify-content: center;
@@ -33,7 +30,6 @@ header {
     background-color: black;
     width: 100%;
     height: 100%;
-   
 }
 
 header a {
@@ -53,7 +49,6 @@ header a:hover {
     transform: scale(1.1);
 }
 
-
 nav {
     display: flex;
     background-color:black;
@@ -62,7 +57,6 @@ nav {
     width: auto;
     height: auto;
 }
-
 
 nav a {
     display: flex;
@@ -80,7 +74,6 @@ nav a {
     color: white;
 }
 
-
 nav a p:hover {
     transform: scale(1.2);
 }
@@ -88,7 +81,6 @@ nav a p:hover {
 nav a p {
     transition: 0.5s;  
 }
-
 
 .hem {
     height: 90vh;
@@ -100,9 +92,7 @@ nav a p {
     background-position-x: 50%;
     background-position-y: 100%;
     background-size: 30%;
-    color: white;
-    
-    
+    color: white; 
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 40% 40% auto;
@@ -110,8 +100,6 @@ nav a p {
     "h1 h1"
     "b1 b2"
     "b3 b3";
-
-    
 }
 
 #hem {
@@ -128,8 +116,7 @@ nav a p {
     height: auto;
     font-size: 3em;
     letter-spacing: 0.2rem;  
-    margin-bottom: 70px;
-                                           
+    margin-bottom: 70px;                                        
 }
 
 .med {
@@ -144,11 +131,9 @@ nav a p {
     letter-spacing: 0.2rem;  
     margin-top: 120px;
     margin-right: 290px;
-
 }
 
 .img-fb {
-
     display: block;
     grid-area:  h1;
     align-self: center;
@@ -156,23 +141,18 @@ nav a p {
     height: auto; 
     margin-top: 120px;
     margin-left: 670px;
-
 }
-
-
 
 .omoss {
     height: 75vh;
     background-color: white;
     scroll-margin-top: 15vh;
-
     display: grid;
     grid-template-columns: 33% 33% 33%;
     align-content: center;
 }
 
 .img-ljus {
-
     width: 360px;
     height: auto;
     margin-left: 100px;
@@ -181,7 +161,6 @@ nav a p {
     border-bottom-left-radius: 10%;
     border-top-left-radius: 10%;
     border: 5px solid #555;
-
 }
 
 .om-text {
@@ -191,11 +170,8 @@ nav a p {
     margin-right: 50px;
     margin-left: 50px;
     border-radius: 10%;
-    border: 5px solid #555;
-    
-     
+    border: 5px solid #555;   
 }
-
 
 .handla {
     display: grid;
@@ -204,29 +180,20 @@ nav a p {
     align-content: center;
     grid-template-areas: 
     "p1 p1"
-    "p2 p2";
-
-    
+    "p2 p2"; 
 }
 
 .handla-hem {
-
     background-color: rgba(200, 200, 200, 0.5);
     width: 400px;
     height: 200px;
     margin-left: 40px;
     border-radius: 50%;
     border: 5px solid #555;
-    transition: 0.8s;
-    
-    
-   
+    transition: 0.8s; 
 }
 
-
-
 .bestall {
-
     background-color: rgba(200, 200, 200, 0.5);
     width: 400px;
     height: 200px;
@@ -234,8 +201,6 @@ nav a p {
     border-radius: 50%;
     border: 5px solid #555;
     transition: 0.8s;
-    
-
 }
 
 .handla-hem h1 {
@@ -256,7 +221,6 @@ nav a p {
 
 .handla-hem:hover {
     transform: scale(1.075);
-
 }
 
 .bestall:hover {
@@ -267,34 +231,25 @@ h2{
     margin: 0;
 }
 
-
-
 .forsaljning {
     height: 90vh;
     background-color: rgba(200, 200, 200, 0.5);
     scroll-margin-top: 10vh;
-
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    align-content: center;
-    
+    align-content: center; 
 }
 
 .slider {
     margin-inline-start: 20px;
-    padding-top: 20px;
-    
-
-    
+    padding-top: 20px;   
 }
 
 
 
 input[type="range" i] {
-
-    transform: scale(1);
-    
+    transform: scale(1);  
 }
 
 .jobba {
@@ -309,3 +264,220 @@ input[type="range" i] {
     scroll-margin-top: 10vh;
     color: white;
 }
+
+
+/* @media (max-width: 768px) {
+
+
+  
+    body {
+      overflow-x: hidden;
+    }
+  
+    #container {
+      height: 15vh;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+        ". .";
+    }
+  
+    .hem {
+      height: 70vh;
+      margin-top: 15vh;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "h1"
+        "b1"
+        "b2"
+        "b3";
+    }
+  
+    .med {
+      display: none;
+    }
+  
+    .img-fb {
+      display: none;
+    }
+  
+    .omoss {
+      height: auto;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "img-ljus"
+        "om-text"
+        "handla";
+    }
+  
+    .img-ljus {
+      width: 90%;
+      margin: 0 auto;
+      
+    }
+  
+    .handla {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "p1"
+        "p2";
+    }
+  
+    .handla-hem {
+      width: 80%;
+      height: 150px;
+      margin: 10px auto;
+    }
+  
+    .bestall {
+      width: 80%;
+      height: 150px;
+      margin: 10px auto;
+    }
+  
+    .forsaljning {
+      height: auto;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "slider";
+    }
+  
+    .slider {
+      margin: 20px;
+    }
+  
+    .jobba {
+      height: auto;
+    }
+  
+    .info {
+      height: auto;
+    }
+  
+    .hemomoss {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 8vh;
+    }
+  
+    .headerlogga {
+      display: none;
+    }
+  
+    .forsaljningjobba {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 8vh;
+    }
+  
+    .container {
+      height: 10vh;
+    }
+  } */
+
+  @media (max-width: 768px) {
+    body {
+      overflow-x: hidden;
+    }
+  
+    #container {
+      height: 15vh;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: ". .";
+    }
+  
+    .hem {
+      height: 70vh;
+      margin-top: 15vh;
+      grid-template-columns: 1fr;
+      grid-template-areas: "h1" "b1" "b2" "b3";
+    }
+  
+    .med {
+      display: none;
+    }
+  
+    .img-fb {
+      display: none;
+    }
+  
+    .omoss {
+      height: auto;
+      grid-template-columns: 1fr;
+      grid-template-areas: "img-ljus" "om-text" "handla";
+      padding-bottom: 100px;
+    }
+  
+    .img-ljus {
+      width: 70%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .handla {
+      grid-template-columns: 1fr;
+      grid-template-areas: "p1" "p2";
+      
+    }
+  
+    .handla-hem {
+      width: 80%;
+      height: 150px;
+      margin: 10px auto;
+      margin-top: 10rem;
+  
+    }
+  
+    .bestall {
+      width: 80%;
+      height: 150px;
+      margin: 10px auto;
+      margin-bottom: 10rem;
+    }
+  
+    .forsaljning {
+      height: auto;
+      grid-template-columns: 1fr;
+      grid-template-areas: "slider";
+    }
+  
+    .slider {
+      margin: 20px;
+    }
+  
+    .jobba {
+      height: auto;
+    }
+  
+    .info {
+      height: auto;
+    }
+
+    .inget {
+      height: 30rem;
+    }
+  
+    .hemomoss {
+      display: flex;
+      align-items: center;
+      height: 8vh;
+    }
+  
+    .headerlogga {
+      display: none;
+    }
+  
+    .forsaljningjobba {
+      display: flex;
+      align-items: center;
+      height: 8vh;
+    }
+  
+    .container {
+      height: 10vh;
+    }
+  }
